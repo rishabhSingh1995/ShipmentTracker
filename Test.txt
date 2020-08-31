@@ -1,0 +1,32 @@
+{ apple: 1 }, [{ name: owd, inventory: { apple: 1 } }]
+
+{ apple: 10 }, [{ name: owd, inventory: { apple: 5 } }, { name: dm, inventory: { apple: 5 }}]
+
+{ apple: 1 }, [{ name: owd, inventory: { apple: 0 } }]
+
+{ apple: 2 }, [{ name: owd, inventory: { apple: 1 } }]
+
+{ apple: 10 }, [{ name: owd, inventory: { apple: 0 } }, { name: dm, inventory: { apple: 10 }}]
+
+{ apple: 5, banana: 5, orange: 5, grapes: 5 }, [ { name: owd, inventory: { apple: 5, orange: 10, grapes:2 } }, { name: dm, inventory: { banana: 5, orange: 10, grapes: 3 } } ]
+   
+{ apple: 5, banana: 0, orange: 0 }, [ { name: owd, inventory: { apple: 5, orange: 10 } }, { name: dm, inventory: { apple: 5, banana: 5, orange: 10 } } ]
+
+
+{ apple: 0, banana: 0, orange: 0, grapes: 0 }, [ { name: owd, inventory: { apple: 5, orange: 10, grapes:2 } }, { name: dm, inventory: { banana: 5, orange: 10, grapes: 3 } } ]
+
+{ apple: 0, banana: 0, orange: 0, grapes: 5 }, [ { name: owd, inventory: { apple: 5, orange: 10, grapes:2 } }, { name: dm, inventory: { banana: 5, orange: 10, grapes: 3 } } ]
+
+{ apple: 0, banana: 5, orange: 0, grapes: 5 }, [ { name: owd, inventory: { apple: 5, orange: 10, grapes:2 } }, { name: dm, inventory: { banana: 5, orange: 10, grapes: 3 } } ]
+
+{ apple: 0, banana: 5, orange: 5, grapes: 5 }, [ { name: owd, inventory: { apple: 5, orange: 10, grapes:2 } }, { name: dm, inventory: { banana: 5, orange: 10, grapes: 3 } } ]
+
+{ apple: 0, banana: 0, orange: 0, grapes: 15 }, [ { name: owd, inventory: { apple: 5, orange: 10, grapes:2 } }, { name: dm, inventory: { banana: 5, orange: 10, grapes: 3 } } ]
+
+{ apple: 0, banana: 0, orange: 55, grapes: 5 }, [ { name: owd, inventory: { apple: 5, orange: 10, grapes:2 } }, { name: dm, inventory: { banana: 5, orange: 10, grapes: 3 } } ]
+
+{ apple: 0, banana: 0, orange: 55, grapes: 5 }, [ { name: owd, inventory: { apple: 5, orange: 10, grapes:2 } }, { name: dm, inventory: { banana: 5, orange: 10, grapes: 3 } }, { name: Tar, inventory: { banana: 5, orange: 10, grapes: 3 } } ]
+
+{ apple: 0, banana: 0, orange: 55, grapes: 5 }, [ { name: owd, inventory: { apple: 5, orange: 10, grapes:2 } }, { name: dm, inventory: { banana: 5, orange: 10, grapes: 3 } }, { name: Tar, inventory: { banana: 5, orange: 60, grapes: 3 } } ]
+
+END
